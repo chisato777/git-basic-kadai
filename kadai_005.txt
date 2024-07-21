@@ -1,0 +1,14 @@
+PS C:\Users\chisato\kadai> cd git_challenge
+PS C:\Users\chisato\kadai\git_challenge> git init
+Initialized empty Git repository in C:/Users/chisato/kadai/git_challenge/.git/
+PS C:\Users\chisato\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\chisato\kadai\git_challenge> git commit -m "最初のコミット"
+ create mode 100644 hello_world.txt
+PS C:\Users\chisato\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\chisato\kadai\git_challenge> git commit -m "2回目のコミット"
+[main d723469] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\chisato\kadai\git_challenge> git log --oneline
+d723469 (HEAD -> main) 2回目のコミット
+820012e 最初のコミット
+PS C:\Users\chisato\kadai\git_challenge> 
